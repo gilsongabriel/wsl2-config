@@ -1,0 +1,26 @@
+
+[user]
+	email = gilson@codemastersolucoes.com
+	name = Gilson Gabriel
+[color]
+	ui = true
+[credential]
+	helper = cache --timeout=7200
+[init]
+	defaultBranch = main
+	templateDir = ~/.git-template
+[alias]
+	cmt = commit -m
+	ci = commit -m
+	st = status
+	br = branch
+	co = checkout
+	con = checkout -B
+	last = log -1 HEAD
+	unstage = reset HEAD --
+	gbr = br --show-current
+	get = pull origin
+	put = push origin
+	a = add .
+	rmt = remote add origin
+
